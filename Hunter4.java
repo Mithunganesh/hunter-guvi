@@ -11,7 +11,7 @@ class Hunter4
     for(int i=0;i<n;i++)
     {
       no[i]=scan.nextInt();
-    }
+    }int count=0;
    for(int j=0;j<n;j++){
        int a=0,b=0;
        int flag=0;
@@ -24,9 +24,13 @@ class Hunter4
            
        }
        if(flag==1){
-           System.out.println("UNIQUE NO IS:"+a);
+           System.out.println("unique no is:"+a);
+           count++;
            break;
        }
+   }
+   if(count==0){
+       System.out.println("No UNIQUE ELEMENTS IN ARRAY...");
    }
   }
 }
