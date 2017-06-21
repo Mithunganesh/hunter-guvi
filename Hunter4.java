@@ -24,13 +24,13 @@ class Hunter4
            
        }
        if(flag==1){
-           System.out.println("unique no is:"+a);
+           System.out.println("UNIQUE NO IS:"+a);
            count++;
            break;
        }
    }
    if(count==0){
-       System.out.println("No UNIQUE ELEMENTS IN ARRAY...");
+       System.out.println("NO UNIQUE ELEMENTS IN ARRAY...");
    }
   }
 }
